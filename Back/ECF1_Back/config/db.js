@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize("ecf_database", "root", "Fares_Dries_59", {
+const sequelize = new Sequelize("ecf_database", "root", "mdp", {
   host: "localhost",
   dialect: "mysql",
 });
